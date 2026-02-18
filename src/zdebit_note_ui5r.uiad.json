@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Debit Note",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Debit Note"
+  },
+  "ui5AppDetails": {
+    "appId": "zdebitcreditnote"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_19C524C35CA1D986029B4E3BB5B55B52BD126F9A_TM",
+    "semanticObject": "zdebit_credit_note",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_19C524C35CA1D986029B4E3BB5B55B52BD126F9A_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Debit Note",
+        "subtitle": "ZFI"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZPAYMENT_ADVICE_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>Payment Advice</DESCRIPTION>
+     <RESPONSIBLE>CB9980000023</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>MRF</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZFI_DEV</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZPAYMENT_ADVICE_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <UI_APP_ID>ZPAYMENTADVICE_UI5R</UI_APP_ID>
+    <SERVICE>
+     <item>
+      <REL_NAME>ZFI_PAYMENTADVICE</REL_NAME>
+      <REL_TYPE>HTTP</REL_TYPE>
+      <APP_ID>ZPAYMENT_ADVICE_EXT</APP_ID>
+      <SRVC_NAME>30B18A1B042FA685A3762AA5E155DF</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Payment Advice</TEXT>
+      <TYPE_TEXT>HTTP Service</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>
